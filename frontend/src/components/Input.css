@@ -1,0 +1,30 @@
+.input {
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: transparent;
+  height: 45px;
+
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 12px;
+}
+
+.input-field {
+  border: none;
+  background: transparent;
+  outline: none;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #b3b3b3;
+  opacity: 1; /* Firefox */
+}
