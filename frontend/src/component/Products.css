@@ -1,0 +1,47 @@
+
+.AdminTable {
+    overflow-x: auto;
+    max-width: 100%;
+  }
+  
+  .AdminTable table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .AdminTable th {
+    padding: 12px 15px;
+    background-color: #11045c;
+    color: #fff;
+    font-weight: 700;
+    border-bottom: 2px solid #b5b5b5;
+  }
+  
+  .AdminTable td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #241818;
+  }
+  
+  .AdminTable td img {
+    max-width: 50px;
+    height: auto;
+  }
+  
+  .AdminTable td button {
+    background-color: #11045c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .AdminTable td button:hover {
+    background-color: #11045c;
+  }

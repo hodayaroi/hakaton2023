@@ -1,0 +1,69 @@
+.container {
+  position: flex;
+  left: 0;
+  width: 150%;
+  padding: 20px;
+  background-color: #c4c2d6;
+  text-align: center;
+  /* height: 320px; */
+}
+.about-container {
+    /* background-color: #  f7f7f7; */
+    padding: 20px;
+  }
+  
+  .about-titlee {
+    font-family: "Brush Script MT", cursive;
+    font-size: 55px;
+    font-weight: bold;
+    color: #11045c; /* Updated color */
+    margin-bottom: 10px;
+    text-align: center; /* Added text alignment */
+  }
+  
+  .about-title1,
+  .about-title2,
+  .about-title3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #3b8cc6; /* Updated color */
+    margin-bottom: 10px;
+    text-align: center; /* Added text alignment */
+  }
+  
+  .about-text,
+  .about-list {
+    text-align: center; /* Added text alignment */
+  }
+  
+  .about-text {
+    /* font-family: "Brush Script MT", cursive; */
+    font-size: 16px;
+    line-height: 1.5;
+    color: #040404;
+    margin-bottom: 20px;
+  }
+  
+  .about-list {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .about-list li {
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  /* Additional styles to enhance the sticky footer */
+  .container {
+    margin-bottom: 100px;
+  }
+  
+  .about-title{
+    font-size: 16px;
+    font-weight: bold;
+    color: #7bb2d9; /* Updated color */
+    margin-bottom: 10px;
+    text-align: center; /* Added text alignment */
+  }
